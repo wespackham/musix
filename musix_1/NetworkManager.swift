@@ -11,7 +11,7 @@ class NetworkManager {
     static let shared = NetworkManager()
     
     private let baseURL = "https://ws.audioscrobbler.com/2.0/"
-    private let apiKey = "ac1252b16bf74e46c32ff303660ca7b3" // Replace with your Last.fm API key
+    private let apiKey = "API_KEY_HERE" // Replace with your Last.fm API key
     
     private init() {}
     
