@@ -115,7 +115,7 @@ I'd say the product is clearly defined for me.
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://www2.online-converting.com/upload/api_2970515696/result.jpg" width=600>
+<img src="https://imgur.com/UNZVDrL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -123,14 +123,37 @@ I'd say the product is clearly defined for me.
 
 ## Schema 
 
-[This section will be completed in Unit 9]
+Models
+
+Album
+Represents an album or track
+name: String, artist: String, imageURL: String
+
+Artist
+Represents an artist
+name: String, imageURL: String
+
+Favorite
+Saved album for Profile
+name: String, artist: String
+
+## Networking
+
+Home Screen:
+
+Request: Fetch recent tracks.
+
+Analytics Screen:
+
+Requests: Fetch weekly tracks, albums, artists.
+
+Endpoints (Last.fm):
+
+user.getrecenttracks
+user.getweeklytrackchart
+user.getweeklyalbumchart
+user.getweeklyartistchart
 
 ### Models
 
 [Add table of models]
-
-### Networking
-
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
